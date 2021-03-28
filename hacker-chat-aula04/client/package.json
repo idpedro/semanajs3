@@ -1,0 +1,20 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lucas": "node index.js --username lucas --room Sala01 --hostUri http://localhost:9898",
+    "user02": "node index.js --username viceroy --room Sala01 --hostUri http://localhost:9898",
+    "pedro":"node index.js --username pedro --room Sala01 --hostUri http://localhost:9898"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
